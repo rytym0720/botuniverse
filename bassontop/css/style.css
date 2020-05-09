@@ -1,0 +1,309 @@
+.wrap{
+  max-width: 1000px;
+}
+
+html{
+  /* max-width: 1200px; */
+}
+
+body{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color:#f5f5f5;
+}
+
+
+.top{
+  height: 100px;
+background-color: #f8f8f8;
+/* display: flex; */
+justify-content: space-between;
+margin-bottom: 0;
+}
+
+.topword{
+  position: relative;left:120px;
+}
+
+.toplogo{
+  position: relative; top:20px;left:100px;
+}
+
+.main-nav{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  list-style:none;
+  position: relative; top:-75px;left:350px;
+
+}
+ul{
+  display: flex;
+  list-style:none;
+}
+
+a{
+  text-decoration: none;
+color: black;
+}
+
+
+.main-nav li{
+  list-style: none;
+  margin: 10px;
+  padding-left: 5px;
+  color: #f8f8f8;
+}
+
+
+.header-right {
+  position: absolute;left:1250px;top:0px;
+  background-color: rgba(255, 255, 255, 0);
+  /* transitionを指定してください */
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+color: brown;
+}
+
+/* header-rightの中の<a>のCSSを指定してください */
+ .header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black
+  display: block;
+  position: relative;top: 20px;
+} 
+
+.login{
+  height: 30px;
+  padding: 20px;
+
+}
+
+.login:hover{
+  opacity: 0.7;
+}
+
+
+.container {
+  /* width: 1170px; */
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../maxresdefault.jpg);
+  background-size: cover;
+  color:black;
+  text-align: center;
+}
+
+.big-bg{
+  font-size: 85px;
+  color: #239b76;
+
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 55px;
+  letter-spacing: 5px;
+  color: firebrick;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.top-wrapper p {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+.explain{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h2{
+  padding-top: 20px;
+  margin-left: 50px;
+  font-weight: 800;
+
+}
+
+.explain p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.image{
+  margin-left: 50px;
+}
+
+.content{
+  display: flex;
+}
+
+span{
+  color: red;
+}
+
+
+.sessionspace{
+  background-color: green;;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+.meetspace{
+  background-color: gold;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+.meetspace:hover{
+  opacity: 0.5;
+}
+
+form div{
+  margin-bottom: 14px;
+}
+
+label{
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+  background: rgba(255, 255, 255, .5);
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-left: 50px;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  max-width: 240px;
+}
+
+textarea{
+  width: 100%;
+  max-width: 480px;
+  height:6rem;
+}
+
+input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  line-height: 2;
+  background-color:blue;
+  color: white;
+  margin-left: 50px;
+  border-radius: 5px;
+padding: 10px;
+  margin-bottom: 30px;
+}
+
+
+aside{
+  width: 30%;
+}
+
+.submenu{
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 1350px;
+
+}
+.submenu p{
+  margin-left: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+
+.yamaha{
+  color: red;
+}
+
+
+footer{
+  height: 80px;
+  background-color: black;
+  color: #f8f8f8;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.youtube{
+  margin-left: 20px;
+}
+
+h3{
+  padding-top: 20px;
+  margin-left: 20px;
+  font-weight: 700;
+
+}
